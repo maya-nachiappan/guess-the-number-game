@@ -24,7 +24,7 @@ int main()
     {
         cout << "enter your guess: " << endl;
         cin >> guess;
-    }
+    
     
     if (guess>=1 && guess <=100)
     {
@@ -38,13 +38,15 @@ int main()
         }
         else if (guess == secret)
         {
-            cout << "congrats! you found the secret number!" << endl;
+            cout << "congrats! you found the secret number " << secret <<"!" << endl;
         }
         else
         {
             cout << "error! you entered a number outside the range" << endl;
             return 1;
         }
+    }
+        
     }
     return 0;
 }
