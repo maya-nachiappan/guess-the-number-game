@@ -41,7 +41,7 @@
 		6C5D1D882C98B96000497D11 = {
 			isa = PBXGroup;
 			children = (
-				6C5D1D932C98B96000497D11 /* CIS25 - assignment 14 */,
+				6C5D1D932C98B96000497D11 /* secret number guessing game */,
 				6C5D1D922C98B96000497D11 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,12 +54,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6C5D1D932C98B96000497D11 /* CIS25 - assignment 14 */ = {
+		6C5D1D932C98B96000497D11 /* secret number guessing game */ = {
 			isa = PBXGroup;
 			children = (
 				6C5D1D942C98B96000497D11 /* main.cpp */,
 			);
-			path = "CIS25 - assignment 14";
+			path = "secret number guessing game";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
