@@ -14,27 +14,27 @@ using namespace std;
 
 int main()
 {
-    srand(time(0));
+    srand(time(0)); // random number generated using time seed
     int secret= rand()% 100+1; // generates a random number with a limit between 1-100
     int guess=0;
     
     cout << "guess a secret number between 1 and 100! " << endl;
     
-    while (guess!= secret)
+    while (guess!= secret) // while loop if guess is not equal to the secret number
     {
-        cout << "enter your guess: " << endl;
+        cout << "enter your guess: " << endl; // prompts user to guess
         cin >> guess;
     
     
-    if (guess>=1 && guess <=100)
+    if (guess>=1 && guess <=100) // if guess is within range
     {
-        if (guess < secret)
+        if (guess < secret) // if guess is low
         {
-            cout << "too low! try again!" << endl;
+            cout << "too low! try again!" << endl; // prompts user to guess higher
         }
-        else if (guess > secret)
+        else if (guess > secret) // if guess is high
         {
-            cout << "too high! try again!" << endl;
+            cout << "too high! try again!" << endl; // prompts user to guess lower
         }
         else if (guess == secret)
         {
