@@ -1,0 +1,1 @@
+This is a program to generate a random number between 1 and 100, generated using rand and srand, and uses a while loop to continuously ask the user to guess the number. The random number also has limits to make the minimum number 1 and the maximum number 100.
