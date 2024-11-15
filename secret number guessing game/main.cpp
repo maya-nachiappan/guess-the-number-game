@@ -14,7 +14,7 @@ using namespace std;
 
 int main()
 {
-    srand(time(0)); // random number generated using time seed
+    srand(static_cast<unsigned int>(time(0))); // random number generated using time seed
     int secret= rand()% 100+1; // generates a random number with a limit between 1-100
     int guess=0;
     
@@ -40,13 +40,12 @@ int main()
         {
             cout << "congrats! you found the secret number " << secret <<"!" << endl;
         }
+    }
         else
         {
             cout << "error! you entered a number outside the range" << endl;
             return 1;
         }
-    }
-        
     }
     return 0;
 }
